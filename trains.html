@@ -1,2 +1,133 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="noindex, nofollow"><title>Trains | Amtrak</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/css/style.css"></head><body><div class="status-bar"><div class="container status-inner"><span>☀️ Weather: Clear</span><span>English</span><span>9:34 PM</span><span>USA</span><span>September 18, 2026</span></div></div><header class="site-header"><div class="top-bar"><div class="container top-inner"><span>📞 <a href="tel:+10000000000">+1 (000) 000-0000</a></span><span>🚆 America's Premier Train Travel Service</span></div></div><nav class="navbar"><div class="container nav-inner"><a class="logo" href="index.html">Amtrak</a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><div class="nav-menu"><a data-page="index.html" href="index.html">Home</a><a data-page="trains.html" href="trains.html">Trains</a><a data-page="destinations.html" href="destinations.html">Destinations</a><a data-page="services.html" href="services.html">Services</a><a data-page="contact.html" href="contact.html">Contact</a><a class="nav-phone" href="tel:+10000000000">+1 (000) 000-0000</a></div></div></nav></header><main><section class="page-hero"><div class="container"><h1>Book Trains</h1><div class="breadcrumb"><a href="index.html">Home</a> / Trains</div></div></section><section class="container"><form class="filter-box"><div class="filter-grid"><div class="field"><label>From</label><input type="text" placeholder="Departure city"></div><div class="field"><label>To</label><input type="text" placeholder="Arrival city"></div><div class="field"><label>Date</label><input type="date"></div><div class="field"><label>Class</label><select><option>Economy</option><option>Business</option><option>First Class</option></select></div></div><button class="btn btn-red" type="submit" style="margin-top:18px">Search Trains</button></form></section><section class="section train-list"><div class="container"><div class="cards-grid" id="trains-grid"></div></div></section></main><footer class="site-footer"><section class="newsletter"><div class="container newsletter-inner"><div><span class="eyebrow">Stay Connected</span><h2>Travel updates, delivered.</h2><p>Subscribe for route news and travel inspiration.</p></div><form class="newsletter-form"><input type="text" name="subscriber" placeholder="Enter your details" aria-label="Subscription details" required><button type="submit" class="btn btn-red">Subscribe</button></form></div></section><div class="footer-main"><div class="container footer-grid"><div><div class="footer-logo">Amtrak</div><p>Comfortable, scenic, and reliable train travel across America.</p></div><div><h3>Explore</h3><a href="index.html">Home</a><a href="trains.html">Trains</a><a href="destinations.html">Destinations</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div><div><h3>Legal</h3><a href="#terms">Terms</a><a href="#privacy">Privacy</a><a href="#refund">Refund</a><a href="#disclaimer">Disclaimer</a></div><div><h3>Contact</h3><p>Address: 1249 4th St NW, Washington, DC 20001, USA</p><p>Phone: <a href="tel:+10000000000">+1 (000) 000-0000</a></p></div></div></div><div class="footer-bottom"><div class="container">© 2026 All Right By Amtrak</div></div></footer><script src="assets/js/data.js"></script><script src="assets/js/main.js"></script></body></html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Trains | Amtrak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="top-bar">
+            <div class="container top-inner">
+                <span>📞 <a href="tel:+10000000000">+1 (000) 000-0000</a></span>
+                <span>🚆 America's Premier Train Travel Service</span>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <div class="container nav-inner">
+                <a class="logo" href="index.html">Amtrak</a>
+                <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+                <div class="nav-menu">
+                    <a data-page="index.html" href="index.html">Home</a>
+                    <a data-page="trains.html" href="trains.html">Trains</a>
+                    <a data-page="destinations.html" href="destinations.html">Destinations</a>
+                    <a data-page="services.html" href="services.html">Services</a>
+                    <a class="nav-phone" href="tel:+10000000000">+1 (000) 000-0000</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Book Trains</h1>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> / Trains
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <form class="filter-box">
+                <div class="filter-grid">
+                    <div class="field">
+                        <label>From</label>
+                        <input type="text" placeholder="Departure city">
+                    </div>
+                    <div class="field">
+                        <label>To</label>
+                        <input type="text" placeholder="Arrival city">
+                    </div>
+                    <div class="field">
+                        <label>Date</label>
+                        <input type="date">
+                    </div>
+                    <div class="field">
+                        <label>Class</label>
+                        <select>
+                            <option>Economy</option>
+                            <option>Business</option>
+                            <option>First Class</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="btn btn-red" type="submit" style="margin-top:18px">Search Trains</button>
+            </form>
+        </section>
+
+        <section class="section train-list">
+            <div class="container">
+                <div class="cards-grid" id="trains-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <section class="newsletter">
+            <div class="container newsletter-inner">
+                <div>
+                    <span class="eyebrow">Stay Connected</span>
+                    <h2>Travel updates, delivered.</h2>
+                    <p>Subscribe for route news and travel inspiration.</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="text" name="subscriber" placeholder="Enter your details" aria-label="Subscription details" required>
+                    <button type="submit" class="btn btn-red">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="footer-main">
+            <div class="container footer-grid">
+                <div>
+                    <div class="footer-logo">Amtrak</div>
+                    <p>Comfortable, scenic, and reliable train travel across America.</p>
+                </div>
+                <div>
+                    <h3>Explore</h3>
+                    <a href="index.html">Home</a>
+                    <a href="trains.html">Trains</a>
+                    <a href="destinations.html">Destinations</a>
+                    <a href="services.html">Services</a>
+                </div>
+                <div>
+                    <h3>Legal</h3>
+                    <a href="#terms">Terms</a>
+                    <a href="#privacy">Privacy</a>
+                    <a href="#refund">Refund</a>
+                    <a href="#disclaimer">Disclaimer</a>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <p>Address: 1249 4th St NW, Washington, DC 20001, USA</p>
+                    <p>Phone: <a href="tel:+10000000000">+1 (000) 000-0000</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">© 2026 All Right By Amtrak</div>
+        </div>
+    </footer>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
